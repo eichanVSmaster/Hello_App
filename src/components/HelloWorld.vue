@@ -6,7 +6,7 @@
     <button v-on:click="doAction">Show/Hide</button>
     <br />
     <transition name="transit">
-      <p v-if="flg" class="trans">ここを変更しました。</p>
+      <p v-if="flg" class="trans">今度はmasterにプッシュします。</p>
     </transition>
   </div>
 </template>
