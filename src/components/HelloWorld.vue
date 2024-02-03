@@ -6,7 +6,7 @@
     <button v-on:click="doAction">Show/Hide</button>
     <br />
     <transition name="transit">
-      <p v-if="flg" class="trans">今度はmasterを伸ばす。</p>
+      <p v-if="flg" class="trans">全部統合してみる</p>
     </transition>
   </div>
 </template>
